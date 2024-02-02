@@ -14,7 +14,7 @@ const bodyParser = require("body-parser");
 
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "https://reviewhub-app.netlify.app/",
         methods: "GET,POST,PUT,DELETE",
         credentials: true,
     })
