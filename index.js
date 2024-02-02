@@ -12,13 +12,7 @@ const contactroute = require("./Routes/contact")
 const bodyParser = require("body-parser");
 
 
-app.use(
-    cors({
-        origin: "*",
-        methods: "GET,POST,PUT,DELETE",
-        credentials: true,
-    })
-);
+app.use(cors());
 
 
 
